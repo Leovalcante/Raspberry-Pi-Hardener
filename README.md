@@ -15,10 +15,10 @@ These are the resources used to implement this script:
 
 You can launch the script as is to remove any unwanted programs and disable the desktop environment. Otherwise, you can comment the actions you don't want to perform in the `main` function. At the moment the functions are:
 
-- removeBloatware: removes default extra installed software
-- disableServices: disables services like Bluetooth and other not useful for a headless environment
-- removeDesktopEnvironment: removes the actual desktop environment
-- installSecurity: installs and configures `ufw` and `fail2ban`
+- `removeBloatware`: removes default extra installed software
+- `disableServices`: disables services like Bluetooth and other not useful for a headless environment
+- `removeDesktopEnvironment`: removes the actual desktop environment
+- `installSecurity`: installs and configures `ufw` and `fail2ban`
 
 ## Contributions
 
